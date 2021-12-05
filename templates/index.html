@@ -1,0 +1,21 @@
+
+
+
+{% block head %}
+
+<title>CSV</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="">EDA VIEWER</h1>
+
+    <div class="form">
+        <form action="/EDA" method="POST">
+            <input type="text" name="location" id="location" placeholder="Enter your csv file location">
+            <input type="submit" value="Get EDA">
+        </form>
+    </div>
+</div>
+{% endblock %}
