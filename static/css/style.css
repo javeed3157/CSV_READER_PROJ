@@ -1,5 +1,5 @@
 body {
-  background-color: #ccffcc;
+  background-color: #b2f6ff;
   text-align:center;
 }
 body * {
@@ -37,4 +37,5 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
